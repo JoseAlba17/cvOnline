@@ -65,13 +65,7 @@
                     </div>
 
                 </div>
-                <div class="hobbies">
-                    <h4>HOBBIES</h4>
-                    <p>Senderism</p>
-                    <p>Guitar</p>
-                    <p>Reading</p>
-                    <p>Developing</p>
-                </div>
+
                 <div class="follow">
                     <h1>FOLLOW ME</h1>
                     <h4>LinkedIn</h4>
@@ -80,6 +74,13 @@
                     <p>JoseAlba17</p>
                     <h4>Twitter</h4>
                     <p>@JoseAlba17</p>
+                </div>
+                <div class="hobbies">
+                    <h1>HOBBIES</h1>
+                    <p>Hiking</p>
+                    <p>Guitar</p>
+                    <p>Reading</p>
+                    <p>Developing</p>
                 </div>
 
             </div>
@@ -120,12 +121,12 @@
                     <h1><span><i class="fas fa-book"></i>
                     </span>EDUCATION</h1>
                     <div class="edu-group">
-                        <h4>UNIVERSIDAD PANAMERICANA<br> MOBILE TECHNOLOGIES SPECIALIZATION</h4>
+                        <h4>UNIVERSIDAD PANAMERICANA<br> GRADUATION OF MOBILE TECHNOLOGIES <br> SPECIALIZATION</h4>
                         <span>2012/2013</span>
                         <p>Specialization, Mobile Development</p>
                     </div>
                     <div class="edu-group">
-                        <h4>UNIVERSIDAD PANAMERICANA<br> ELECTRONICS AND DIGITAL SYSTEMS<br> ENGINEERING</h4>
+                        <h4>UNIVERSIDAD PANAMERICANA<br> GRADUATION OF ELECTRONICS AND DIGITAL <br> SYSTEMS ENGINEERING</h4>
                         <span>2008/2012</span>
                         <p>Engineering Degree, Electronics Engineering</p>
                     </div>
@@ -135,10 +136,18 @@
         </div>
     </div>
 
+    <button>Print CV</button>
+
 
     <!-- FONTAWESOME JS -->
     <script src="./fontawesome-free-6.0.0-beta3-web/js/all.min.js"></script>
-
+    <!-- CUSTOM JS -->
+    <script>
+        var btn = document.querySelector("button");
+        btn.onclick = () => {
+            window.print();
+        };
+    </script>
 </body>
 
 </html>
